@@ -1,0 +1,55 @@
+<<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Gaudereto Suplementos</title>
+</head>
+<body>
+
+  <a href="index.html">
+    <img src="imgs/logoGS.png" alt="Gaudereto Suplementos" class="logo-img">
+  </a>
+
+  <nav>
+    <ul>
+      <li><a href="produtos.html">Todos os produtos</a></li>
+      <li><a href="produtos.html?categoria=whey">Whey Protein</a></li>
+      <li><a href="produtos.html?categoria=creatina">Creatina</a></li>
+      <li><a href="produtos.html?categoria=pre-treino">Pré-treino</a></li>
+      <li><a href="produtos.html?categoria=vestuario">Vestuário</a></li>
+      <li><a href="produtos.html?categoria=acessorios">Acessórios</a></li>
+      <li><a href="consultoria.html">Consultoria</a></li>
+    </ul>
+  </nav>
+
+  <div class="announce-bar">
+    <span>🚚 Entregamos em todo o DF</span>
+    <select class="region-select">
+      <option>Samambaia Sul</option>
+      <option>Ceilândia</option>
+      <option>Taguatinga</option>
+      <option>Águas Claras</option>
+    </select>
+  </div>
+
+  <div class="carousel">
+    <div class="carousel-track">
+      <div class="carousel-slide">
+        <img src="imgs/CR1.png" alt="Entregamos em todo o DF">
+      </div>
+      <div class="carousel-slide">
+        <img src="imgs/banner-2-whey.png" alt="Whey Protein até 30% off">
+      </div>
+      <div class="carousel-slide">
+        <img src="imgs/banner-3-consultoria.png" alt="Consultoria esportiva, agende já">
+      </div>
+    </div>
+    <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+    <div class="carousel-dots"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
